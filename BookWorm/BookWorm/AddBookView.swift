@@ -50,6 +50,11 @@ struct AddBookView: View {
                         dismiss()
                     }
                 }
+                
+                Section("Write a review") {
+                    TextEditor(text: $review)
+                    RatingView(rating: $rating)
+                }
             }
             .navigationTitle("Add Book")
         }

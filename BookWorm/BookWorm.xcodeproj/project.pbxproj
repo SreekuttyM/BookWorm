@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DC2F7812BDF9C00009F1A65 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2F7802BDF9C00009F1A65 /* Student.swift */; };
 		4DC2F7852BDF9E52009F1A65 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2F7842BDF9E52009F1A65 /* AddBookView.swift */; };
+		4DC2F7872BDFA5B9009F1A65 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2F7862BDFA5B9009F1A65 /* RatingView.swift */; };
 		4DC9C4402BDEC44000B4CEBA /* BookWormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C43F2BDEC44000B4CEBA /* BookWormApp.swift */; };
 		4DC9C4422BDEC44100B4CEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C4412BDEC44100B4CEBA /* ContentView.swift */; };
 		4DC9C4442BDEC44400B4CEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC9C4432BDEC44400B4CEBA /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		4DC2F7802BDF9C00009F1A65 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		4DC2F7842BDF9E52009F1A65 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		4DC2F7862BDFA5B9009F1A65 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		4DC9C43C2BDEC44000B4CEBA /* BookWorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookWorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC9C43F2BDEC44000B4CEBA /* BookWormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWormApp.swift; sourceTree = "<group>"; };
 		4DC9C4412BDEC44100B4CEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				4DC9C4412BDEC44100B4CEBA /* ContentView.swift */,
 				4DC2F7842BDF9E52009F1A65 /* AddBookView.swift */,
 				4DC2F7802BDF9C00009F1A65 /* Student.swift */,
+				4DC2F7862BDFA5B9009F1A65 /* RatingView.swift */,
 				4DC9C4432BDEC44400B4CEBA /* Assets.xcassets */,
 				4DC9C4452BDEC44400B4CEBA /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				4DC9C4422BDEC44100B4CEBA /* ContentView.swift in Sources */,
 				4DC2F7812BDF9C00009F1A65 /* Student.swift in Sources */,
 				4DC9C4402BDEC44000B4CEBA /* BookWormApp.swift in Sources */,
+				4DC2F7872BDFA5B9009F1A65 /* RatingView.swift in Sources */,
 				4DC2F7852BDF9E52009F1A65 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
