@@ -36,22 +36,36 @@ struct ContentView: View {
                             }
                         }
                     }
-                }
+                }.onDelete(perform: deleteBooks)
+                
             }               .navigationTitle("Bookworm")
-               .toolbar {
-                   ToolbarItem(placement: .topBarTrailing) {
-                       Button("Add Book", systemImage: "plus") {
-                           showingAddScreen.toggle()
-                       }
-                   }
-               }
-               .navigationDestination(for: Book.self) { book in
-                   DetailView(book: book)
-               }
-               .sheet(isPresented: $showingAddScreen) {
-                   AddBookView()
-               }
-       }
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button("Add Book", systemImage: "plus") {
+                            showingAddScreen.toggle()
+                        }
+                    }
+                    ToolbarItem(placement: .topBarLeading) {
+                        EditButton()
+                    }
+                }
+                .navigationDestination(for: Book.self) { book in
+                    DetailView(book: book)
+                }
+                .sheet(isPresented: $showingAddScreen) {
+                    AddBookView()
+                }
+        }
+    }
+    
+    func deleteBooks(at offsets: IndexSet) {
+        for offset in offsets {
+            // find this book in our query
+            let book = books[offset]
+
+            // delete it from the context
+            modelContext.delete(book)
+        }
     }
 }
 
