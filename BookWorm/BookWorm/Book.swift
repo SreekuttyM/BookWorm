@@ -1,5 +1,5 @@
 //
-//  Student.swift
+//  Book.swift
 //  BookWorm
 //
 //  Created by Sreekutty Maya on 29/04/2024.
